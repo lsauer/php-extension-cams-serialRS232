@@ -45,16 +45,16 @@ zend_function_entry cams_functions[] = {
    of this module to Zend.
 */
 zend_module_entry cams_module_entry = {
-	STANDARD_MODULE_HEADER,				/* we're keeping to standards	*/
-	cams_MODULE_NAME,					    /* module's name				      */
-	cams_functions,						    /* points to function LUT		  */
-	NULL,								          /* PHP_MINIT(cams)				    */
-	NULL,								          /* PHP_MSHUTDOWN(cams)			  */
-	NULL,								          /* PHP_RINIT(cams)				    */
-	NULL,							          	/* PHP_RSHUTDOWN(cams)			  */
-	PHP_MINFO(cams),	    				/* module info function			  */
-	cams_MODULE_VERSION,				  /* version number				      */
-	STANDARD_MODULE_PROPERTIES		/* skip the rest				      */
+  STANDARD_MODULE_HEADER,       /* we're keeping to standards */
+  cams_MODULE_NAME,             /* module's name              */
+  cams_functions,               /* points to function LUT     */
+  NULL,                         /* PHP_MINIT(cams)            */
+  NULL,                         /* PHP_MSHUTDOWN(cams)        */
+  NULL,                         /* PHP_RINIT(cams)            */
+  NULL,                         /* PHP_RSHUTDOWN(cams)        */
+  PHP_MINFO(cams),              /* module info function       */
+  cams_MODULE_VERSION,          /* version number             */
+  STANDARD_MODULE_PROPERTIES    /* skip the rest              */
 };
 
 /* 
@@ -81,7 +81,12 @@ PHP_MINFO_FUNCTION(cams) {
 /* EXPORT FUNCTIONS DEFINITIONS 
    ----------------------------
 ZEND_FUNCTIONS expands through invocation to: 
-    'void zif_my_function(int ht, zval *return_value, zval *this_ptr, int return_value_used, zend_executor_globals *executor_globals);'
+    'void zif_my_function( int ht
+                          ,zval *return_value
+                          ,zval *this_ptr
+                          ,int return_value_used
+                          ,zend_executor_globals *executor_globals
+    );'
 */
 
 /* initialize & uninitializes cams */
