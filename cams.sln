@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cams", "cams.vcproj", "{6C1E8A8C-49FB-4191-B27F-ED97B0B4DA4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug_TS
+		ConfigName.1 = Release_TS
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6C1E8A8C-49FB-4191-B27F-ED97B0B4DA4A}.Debug_TS.ActiveCfg = Debug_TS|Win32
+		{6C1E8A8C-49FB-4191-B27F-ED97B0B4DA4A}.Debug_TS.Build.0 = Debug_TS|Win32
+		{6C1E8A8C-49FB-4191-B27F-ED97B0B4DA4A}.Release_TS.ActiveCfg = Release_TS|Win32
+		{6C1E8A8C-49FB-4191-B27F-ED97B0B4DA4A}.Release_TS.Build.0 = Release_TS|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
